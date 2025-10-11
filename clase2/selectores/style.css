@@ -1,0 +1,11 @@
+.contenedor > div > h1 {
+    color: blue;
+}
+
+.articulo h1 ~ span {
+    color: red;
+}
+
+.navegacion h1 + span {
+    color: rgb(71, 192, 55);
+}

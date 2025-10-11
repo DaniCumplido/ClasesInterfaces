@@ -1,0 +1,30 @@
+* {
+    background-color: gray;
+}
+
+/* selectores para atributos */
+
+/* atributo exacto */
+input[type="number"]{
+    background-color: red;
+}
+
+/* atributo exacto */
+a[href="www.prometeo.es"]{
+    color: orange;
+}
+
+/* el atributo que contiene en cierto texto */
+a[href*="prometeo"]{
+    font-weight: bold;
+}
+
+/* el atributo que empieza en cierto texto */
+a[href^="http"]{
+    color: black;
+}
+
+/* el atributo que acaba en cierto texto */
+a[href$=".pdf"]{
+    color: rgb(218, 35, 35);
+}

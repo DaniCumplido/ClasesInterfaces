@@ -1,0 +1,38 @@
+* {
+    background-color: gray;
+}
+
+/* pseudoclase antes de la clase span */
+span::before{
+    content: "-";
+    font-size: 30px;
+    color: #6eff2a;
+}
+
+/* añadir una pseudoclase despues */
+span::after{
+    content: "Después";
+    font-size: 30px;
+    color: aqua;
+}
+
+/* modificar la primera letra */
+p::first-letter {
+    color: #6eff2a;
+    font-size: 30px;
+}
+
+/* modificar la primera linea */
+p::first-line {
+    font-weight: bold;
+}
+
+/* modificar la viñeta */
+ul li::marker{
+    color: violet;
+}
+
+input::placeholder {
+    color: red;
+    font-size: 18px;
+}

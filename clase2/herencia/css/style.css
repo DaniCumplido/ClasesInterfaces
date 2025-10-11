@@ -1,0 +1,16 @@
+* {
+    background-color: gray;
+}
+
+body {
+    color: red;
+    border: 1px blue solid;
+}
+
+div {
+    border: inherit;
+}
+
+/* initial -> valor por defeto */
+/* inherit --> valor heredado de cont. padre */
+/* unset --> hereda si es heredable, sino deja en default */

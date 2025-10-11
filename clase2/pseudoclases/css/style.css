@@ -1,0 +1,67 @@
+* {
+    background-color: #3a3a3a;
+}
+
+
+/* Enlaces no visitados */
+a:link {
+    color: orange;
+}
+
+/* Enlaces visitados */
+a:visited {
+    color: red;
+}
+
+/* input clickado */
+input:focus{
+    background-color: rgb(255, 255, 255);
+}
+
+/* input hover */
+input:hover {
+    background: green;
+    font-size: 20px;
+}
+
+/* modificar los estilos de todos los aprrafos menos los que tienen clase .miparrafo */
+div:not(.miparrafo){
+    color: blueviolet;
+}
+
+/* Pseudoclases avanzadas */
+
+/* primer párrafo del bloque */
+p:first-child {
+    color: green;
+}
+
+/* último parrafo del bloque */
+p:last-child {
+    color: red;
+}
+
+/* el tercer hijo */
+p:nth-child(3){
+    color: aqua;
+}
+
+/* el tercer hijo desde abajo */
+p:nth-last-child(3){
+    color:aliceblue
+}
+
+/* pares */
+a:nth-child(even){
+    color: rgb(195, 235, 18);
+}
+
+/* impares */
+a:nth-child(odd){
+    color: rgb(235, 18, 217);
+}
+
+/* cada 4 seguidos */
+section:nth-child(4n){
+    color: rgb(241, 142, 20);
+}
